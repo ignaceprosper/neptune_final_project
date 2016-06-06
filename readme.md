@@ -24,11 +24,13 @@ OK, here we go.
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+Goal : I want to build a phylogenetic tree for the HCN channel gene family, with a broad taxon sampling.
+This should reveal patterns of orthology and paralogy.
+By doing so, I want to learn how to search for and browse such data, to build and interpret trees.
 
-The methods I will use to do this are...
+Methods : Text file reformatting + tree building program
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+Data : annotated HCN gene sequences from online available genomes
 
 ## Methods
 

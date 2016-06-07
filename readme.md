@@ -20,19 +20,21 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Hmm... still don't have a good title
+# Phylogeny of HCN channels across Metazoa
 
 ## Introduction and Goals
 
-Goal : I want to build a phylogenetic tree for the HCN channel gene family, with a broad taxon sampling.
-This should reveal patterns of orthology and paralogy.
-By doing so, I want to learn how to search for and browse such data, to build and interpret trees.
+Goal : I want to build a phylogenetic tree for the HCN channel gene family, with a taxon sampling representing at least the major clades of Metazoa.
+Before this, I need to identify more orthologs of HCN, based on the currently described HCN channels.
+This project should be an occasion to learn how to search for and browse such data, how to identify homolog genes, and to build and interpret trees.
 
 Methods : Text file reformatting + tree building program
 
-Data : annotated HCN gene sequences from online available genomes
+Data : annotated or not-yet-annotated HCN gene sequences from online available genomes
 
 ## Methods
+
+The starting point is a set of 6 protein sequences, identified as HCN homologs in [1].
 
 The tools I used were... See analysis files at (links to analysis files).
 
@@ -52,4 +54,4 @@ If I did these analyses again, I would...
 
 ## References
 
-
+[1] Baker EC, Layden MJ, van Rossum DB, Kamel B, Medina M, Simpson E, et al. (2015) Functional Characterization of Cnidarian HCN Channels Points to an Early Evolution of Ih. PLoS ONE 10(11): e0142730. doi:10.1371/journal.pone.0142730

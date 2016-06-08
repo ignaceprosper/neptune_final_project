@@ -1,0 +1,67 @@
+IMPORTANT WARNING: Alignment column 3597 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 3615 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 3644 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 5850 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 5884 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 5897 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 6 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file combined.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 3277 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 21.35%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 20 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 3277
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/usr/bin/raxmlHPC-PTHREADS-AVX -T 1 -f a -x 12345 -p 12345 -N 20 -m GTRGAMMA -s combined.phy -n combined_boot 
+
+
+
+Time for BS model parameter optimization 145.691761

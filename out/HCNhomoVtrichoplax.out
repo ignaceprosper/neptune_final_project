@@ -1,0 +1,621 @@
+BLASTP 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprot-proteome%3AUP000009022.fasta
+           11,520 sequences; 5,222,991 total letters
+
+
+
+Query= Homo sapiens
+
+Length=889
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tr|B3RQL4|B3RQL4_TRIAD Putative uncharacterized protein OS=Tric...  173     2e-44
+  tr|B3SAI8|B3SAI8_TRIAD Putative uncharacterized protein OS=Tric...  142     2e-35
+  tr|B3S1X3|B3S1X3_TRIAD Putative uncharacterized protein (Fragme...  115     2e-27
+  tr|B3RQK8|B3RQK8_TRIAD Putative uncharacterized protein (Fragme...  108     2e-25
+  tr|B3S8A5|B3S8A5_TRIAD Putative uncharacterized protein OS=Tric...  82.4    2e-16
+  tr|B3RV15|B3RV15_TRIAD Putative uncharacterized protein OS=Tric...  77.0    6e-15
+  tr|B3RQK9|B3RQK9_TRIAD Putative uncharacterized protein (Fragme...  66.2    2e-12
+  tr|B3RMG4|B3RMG4_TRIAD Putative uncharacterized protein OS=Tric...  57.0    1e-08
+  tr|B3RUK5|B3RUK5_TRIAD Putative uncharacterized protein OS=Tric...  52.4    3e-07
+  tr|B3S3K3|B3S3K3_TRIAD Putative uncharacterized protein OS=Tric...  45.4    4e-05
+  tr|B3RUK4|B3RUK4_TRIAD Putative uncharacterized protein OS=Tric...  45.4    4e-05
+  tr|B3S658|B3S658_TRIAD cGMP-dependent protein kinase OS=Trichop...  45.1    8e-05
+  tr|B3RLT5|B3RLT5_TRIAD Putative uncharacterized protein OS=Tric...  43.5    3e-04
+  tr|B3S646|B3S646_TRIAD Putative uncharacterized protein (Fragme...  42.0    7e-04
+  tr|B3S6X8|B3S6X8_TRIAD Putative uncharacterized protein OS=Tric...  33.5    0.25 
+  tr|B3RL01|B3RL01_TRIAD Predicted protein OS=Trichoplax adhaeren...  30.4    2.2  
+  tr|B3SDA8|B3SDA8_TRIAD Putative uncharacterized protein OS=Tric...  30.0    3.4  
+  tr|B3RQW7|B3RQW7_TRIAD Predicted protein OS=Trichoplax adhaeren...  30.0    3.5  
+  tr|B3RP00|B3RP00_TRIAD Putative uncharacterized protein (Fragme...  29.6    5.1  
+  tr|B3RKT5|B3RKT5_TRIAD Putative uncharacterized protein OS=Tric...  29.3    5.2  
+  tr|B3S6Z7|B3S6Z7_TRIAD Putative uncharacterized protein OS=Tric...  29.3    5.6  
+  tr|B3S9F8|B3S9F8_TRIAD Putative uncharacterized protein OS=Tric...  28.9    7.1  
+  tr|B3RQ85|B3RQ85_TRIAD Putative uncharacterized protein OS=Tric...  28.5    8.3  
+  tr|B3RSA7|B3RSA7_TRIAD Putative uncharacterized protein OS=Tric...  28.1    8.9  
+
+
+> tr|B3RQL4|B3RQL4_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_55030 PE=4 SV=1
+Length=1063
+
+ Score = 173 bits (438),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 129/494 (26%), Positives = 232/494 (47%), Gaps = 70/494 (14%)
+
+Query  203  IIHPYSDFRFYWDFTMLLFMVGNLIIIPVGITFF----------------------KDET  240
+            I+H YS F+ +WD+ +L+ ++   I+ P   +F                        D  
+Sbjct  372  IVH-YSMFKAFWDWLILVVVLYTAIVTPFAASFLLTRDAQKAMLDRNPETRSNHAIDDAY  430
+
+Query  241  TAPWIVFNVVSDTFFLMDLVLNFRTGIVIEDNTEIILDPEKIKKKYLRTWFVVDFVSSIP  300
+              P  V + + D  F++D+++NFRT  V   N EI+ D  KI   YL++WF++D +++IP
+Sbjct  431  NDPLFVIDWIVDITFIIDILINFRTTYV-NSNDEIVTDWRKIALHYLKSWFIIDIIAAIP  489
+
+Query  301  VDYIFLIVEKGIDSEVYKTARALRIVRFTKILSLLRLLRLSRLIRYIHQWEEIFHMTYDL  360
+             + +F+  E+   +           +    +L   RLLR+ R++R   ++ E        
+Sbjct  490  FE-LFIGGEQNDQT-----------ITLIGLLKTARLLRVIRVVRKADRYSET-------  530
+
+Query  361  ASAVMRICNLISMML---LLCHWDGCLQFLVPMLQD----FPRNCWVS---------ING  404
+             +A+     LI +M    L+ HW  C+ + + + +      P+  W+          IN 
+Sbjct  531  GAAI-----LILLMFGFALIAHWLACIWYAIGVAERPGLPKPKYSWLDQLSEEIHRPINK  585
+
+Query  405  MVNHS---WSELYSFALFKAMSHMLCIGYGRQAPESMTDIWLTMLSMIVGATCYAMFIGH  461
+             +  S    ++ Y  AL+   S +  +G+G  +  +  +    +L M +G+  YA   G+
+Sbjct  586  TLGDSGPPITDRYLTALYFTFSSLTTVGFGNVSATTRAEKVFAILVMWLGSLMYASIFGN  645
+
+Query  462  ATALIQSLDSSRRQYQEKYKQVEQYMSFHKLPADFRQKIHDYYEHRYQ-GKMFDEDSILG  520
+             TA+IQ L +S  +Y    K++ +++ FHK+P   + ++ +Y++H +   K  D  S+L 
+Sbjct  646  VTAIIQRLYASTARYHAHLKKIREFIKFHKIPYPLKDRLAEYFQHTWSFHKGIDMTSVLK  705
+
+Query  521  ELNGPLREEIVNFNCRKLVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKK  580
+                 L+ +I     R L+ +  +FA + P+ + ++  K++     PGDY+I +G     
+Sbjct  706  SFPESLQADISLHLNRNLLENSGVFATSSPSCLRSLAFKIQSTHCPPGDYLIMQGDKLNA  765
+
+Query  581  MYFIQHGVVSVLTKGNKEMKLSDGSYFGEICLLTRG--RRTASVRADTYCRLYSLSVDNF  638
+            +YF+  G V VL        L  G  FGE   L R   +  A+VRA TYC L+++S ++ 
+Sbjct  766  LYFVSRGSVEVLRNDVVVAILGVGDTFGENFYLHREIIKSNANVRALTYCDLHTISRESL  825
+
+Query  639  NEVLEEYPMMRRAF  652
+             EVL+ Y      F
+Sbjct  826  LEVLDAYTDFAEHF  839
+
+
+> tr|B3SAI8|B3SAI8_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_51027 PE=4 SV=1
+Length=632
+
+ Score = 142 bits (357),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 125/463 (27%), Positives = 213/463 (46%), Gaps = 56/463 (12%)
+
+Query  203  IIHPYSDFRFYWDFTMLLFMVGNLIIIPVGITFFKD-ETTAPWIVFNVVSDTFFLMDLVL  261
+            II  YS  +  WD+ +L F     I +P  + F +D      +++ + + D  FL D+V+
+Sbjct  185  IILHYSTTKVIWDWVILFFTFYTAIFVPFELAFNRDYRKEIGFLIMDCIVDVIFLSDVVI  244
+
+Query  262  NFRTGIVIEDNT-EIILDPEKIKKKYLRTWFVVDFVSSIPVDYIFLIVEKGIDSEVYKTA  320
+            NFRT  V  D T  I+  P  I + Y+  WFV+D ++++P + IF + +           
+Sbjct  245  NFRTTYV--DGTGHIVSHPPLIVRNYITGWFVIDLLAALPYE-IFTLGD-----------  290
+
+Query  321  RALRIVRFTKILSLLRLLRLSRLIRYIHQWEEIFHMTYDLASAVMRICNLISMMLLLCHW  380
+                         +LRLLRLSR IR  +++ E          A M I  L+   +L+ HW
+Sbjct  291  -------------VLRLLRLSRFIRKFNEYVE--------YGATM-IVLLMFTYVLVAHW  328
+
+Query  381  DGCLQFLVPMLQDFPRNCWVS-------INGMVNH------SWSELYSFALFKAMSHMLC  427
+              C+ + +    +     W+        I   VN+      S +  YS +L+  MS +  
+Sbjct  329  LACIWYRIG-FDECTTFGWLHSLAEQSGITAKVNYTSCQQISVASAYSTSLYFTMSSLTT  387
+
+Query  428  IGYGRQAPESMTDIWLTMLSMIVGATCYAMFIGHATALIQSLDSSRRQYQEKYKQVEQYM  487
+            +G+G  +  ++ +   +++ MI+G+   A   G+ TA++Q L SS ++Y    K ++++ 
+Sbjct  388  VGFGNVSANTIGEKIFSIIIMIIGSLMSAFIFGNVTAILQELYSSTQRYHAILKDMKRFN  447
+
+Query  488  SFHKLPADFRQKIHDYYEHRYQG-KMFDEDSILGELNGPLREEIVNFNCRKLVASMPLFA  546
+              + LP D R+++ DY+   +   K  D   IL      ++ EI     RK++     F+
+Sbjct  448  QVYSLPKDLRRRVEDYFISSWAATKGIDTKEILKYWPKEIQAEIKMHMNRKILRDATCFS  507
+
+Query  547  NADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKG-NKEMKLSDGS  605
+            NA    +  M  + + +   PGD +I  G     +YFI  G   V +        L+ G 
+Sbjct  508  NASEGCLRQMAERFEMQHTGPGDILIHSGQSLNHLYFIACGSFEVYSADVGVTCILTKGD  567
+
+Query  606  YFGEICLLTR--GRRTASVRADTYCRLYSLSVDNFNEVLEEYP  646
+             FG+  +  +  GR  + VRA TYC L+++S  +  EV   YP
+Sbjct  568  VFGDDFIKNKGLGRSHSMVRALTYCDLHTISRIHLLEVAGLYP  610
+
+
+> tr|B3S1X3|B3S1X3_TRIAD Putative uncharacterized protein (Fragment) 
+OS=Trichoplax adhaerens GN=TRIADDRAFT_13081 PE=4 SV=1
+Length=402
+
+ Score = 115 bits (288),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 104/435 (24%), Positives = 197/435 (45%), Gaps = 65/435 (15%)
+
+Query  237  KDETTAPWIVFNVVSDTFFLMDLVLNFRTGIVIEDNTEIILDPEKIKKKYLRTWFVV-DF  295
+            ++ET   W   +  +D  ++ D+ L+ RTG +   +  ++ D  K+++ Y R+  VV D 
+Sbjct  1    QNETPILWGFLDYSTDLIYIADIYLSTRTGYL--SHGIVVTDRHKLRQHYFRSGRVVMDV  58
+
+Query  296  VSSIPVDYIFLIVEKGIDSEVYKTARALRIVRFTKILSLLRLLRLSRLIRYIHQWEEIFH  355
+            +  +P D+ +           Y   +   I+R  ++L   R     RLI+          
+Sbjct  59   ICLLPFDFFY-----------YNVTQMFPIIRIGRLLKYYRTNDFYRLIQ---------S  98
+
+Query  356  MTYDLASAVMRICNLISMMLLLCHWDGCLQFLVPMLQDFPRNCWV-----SINGMVNHSW  410
+             TY       RI NLI  + +L  W   + +++     F  + WV      ING +    
+Sbjct  99   RTY--RPNFWRILNLIHTLFILIQWFAAIYYMISGYIGFGSDGWVYPEPVGINGNL----  152
+
+Query  411  SELYSFALFKAMSHMLCIGYGRQAPESMTDI--WLTMLSMIVGATCYAMFIGHATALIQS  468
+            S  Y  +++ A   +  IG   + P  +T I    T+LS   G   +A  +G    +I  
+Sbjct  153  SVKYLKSVYWATLTLTTIG---EIPSPVTQIEYLFTLLSYFCGLFIFASIVGLLGNVIAK  209
+
+Query  469  LDSSRRQYQEKYKQVEQYMSFHKLPADFRQKIHDYYEHRYQGKMFDEDSILGELNG----  524
+             ++ R Q+ +     ++YMS   + ++ + ++  ++++ ++          G+LNG    
+Sbjct  210  RNARRSQFDQLLDDAKEYMSKRNVSSNLQTRVQRWFDYSWER---------GQLNGIGEA  260
+
+Query  525  --------PLREEIVNFNCRKLVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGT  576
+                     L+ E+      + +  + LF N +  F+  ++ K+K  ++ P D + + G 
+Sbjct  261  RAISMLPTKLKTELALHVHLETLKKVTLFQNCEREFLHDLVLKMKHHIYTPMDLVCQLGE  320
+
+Query  577  IGKKMYFIQHGVVSVLTK-GNKEMKLSDGSYFGEICLLTR----GRRTASVRADTYCRLY  631
+            I ++MY I +G + VL++ G     L +G +FGEI +L+      RRTA+VR+  +  L+
+Sbjct  321  IAREMYIISNGKLEVLSESGAVIATLKEGDFFGEIGVLSLSEAANRRTANVRSIGFSELF  380
+
+Query  632  SLSVDNFNEVLEEYP  646
+             L  D+  E +E+YP
+Sbjct  381  VLLKDDVLEAMEDYP  395
+
+
+> tr|B3RQK8|B3RQK8_TRIAD Putative uncharacterized protein (Fragment) 
+OS=Trichoplax adhaerens GN=TRIADDRAFT_23112 PE=4 SV=1
+Length=367
+
+ Score = 108 bits (270),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 91/345 (26%), Positives = 158/345 (46%), Gaps = 31/345 (9%)
+
+Query  331  ILSLLRLLRLSRLIRYIHQWEEIFHMTYDLASAVMRICNLISMMLLLCHWDGCLQFLVPM  390
+            ++ LL+  RL R+IR + + +      Y    A + I  L+    L+ HW  C+ + + +
+Sbjct  4    LIGLLKTARLLRVIRVVRKADR-----YSETGAAILIL-LMFAFALIAHWLACIWYAIAI  57
+
+Query  391  ----------------LQD---FPRNCWVSINGMVNHSWSELYSFALFKAMSHMLCIGYG  431
+                            L D    P N  VS++G    S +E Y  AL+   S +  +G+G
+Sbjct  58   AERPSIPNPKYSWLDKLADEIHRPFNVSVSVSG---PSITERYLTALYFTFSSLTTVGFG  114
+
+Query  432  RQAPESMTDIWLTMLSMIVGATCYAMFIGHATALIQSLDSSRRQYQEKYKQVEQYMSFHK  491
+              +  + ++    ++ M  GA   A   G+ TA+IQ + +S  +Y    K++++++ FHK
+Sbjct  115  NVSANTSSEKIFAIVVMWFGALLSASIFGNVTAIIQRIYASTARYHSHKKKIKEFVKFHK  174
+
+Query  492  LPADFRQKIHDYYEHRYQ-GKMFDEDSILGELNGPLREEIVNFNCRKLVASMPLFANADP  550
+            +P   + ++ +Y++H +   K  D  S+L      L+ E+     R L+     F    P
+Sbjct  175  IPYYLKCRLLEYFQHTWSYHKGIDMSSVLKSFPESLQAEVSLHLNRNLLKESTAFKMCTP  234
+
+Query  551  NFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKEMKLSDGSYFGEI  610
+            + + ++  K++   + PGDY++ +G     +YFI  G V VL        L  G  FGE 
+Sbjct  235  SCLRSLAFKIESAHYPPGDYLVMQGDKLNFLYFISRGSVEVLRNDVVVAILGVGDVFGEN  294
+
+Query  611  CLLTRG--RRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAFE  653
+                R   +   +VRA TYC L  +S ++  EVL+ YP     F 
+Sbjct  295  FYKYRSVIKSNGNVRALTYCDLNIISKESLLEVLDAYPEFAEDFN  339
+
+
+> tr|B3S8A5|B3S8A5_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_30951 PE=4 SV=1
+Length=667
+
+ Score = 82.4 bits (202),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 64/293 (22%), Positives = 136/293 (46%), Gaps = 19/293 (6%)
+
+Query  379  HWDGCLQFLV--PMLQDFPRNCWV-----SINGMVNHSWS------ELYSFALFKAMSHM  425
+            HW  C+ +++    L +  R  W+     S+N    +S S      + Y  AL+  +S +
+Sbjct  356  HWLACIWYIIGNQELMNNQRLGWLYELSLSLNEPYYNSTSGGPSLQDKYVTALYFTLSSL  415
+
+Query  426  LCIGYGRQAPESMTDIWLTMLSMIVGATCYAMFIGHATALIQSLDSSRRQYQEKYKQVEQ  485
+              +G+G  +  +  +    +++MI+G+  YA+  G+ TA+IQ + S+R +++ +   + Q
+Sbjct  416  TTVGFGNVSGNTTAEKVFAVITMIIGSLMYAVIFGNVTAIIQRIYSARSKFRSRMYDIRQ  475
+
+Query  486  YMSFHKLPADFRQKIHDY-YEHRYQGKMFDEDSILGELNGPLREEIVNFNCRKLVASMPL  544
+            +   + LP   + ++ D+ Y         +++ +L  L   L+ +I  +  R+ +  + L
+Sbjct  476  FCHAYHLPKQLKYRLEDFTYTDWSVTNGINKEEVLKTLPVELQTDICQYLHREFLG-LSL  534
+
+Query  545  FANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKEMKLSDG  604
+            F +     +  + ++++     P + +I EG +   +YF+  G + V         L  G
+Sbjct  535  FQSVSNGCMRNLSSRIQTSYCAPSEIVIYEGELYHPLYFVASGTLQVFRNDVVVAILGHG  594
+
+Query  605  SYFGEICLLTRG----RRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAFE  653
+               GE  L +      + T +V+A TYC L  ++  +  +V E YP + +  +
+Sbjct  595  DLIGEFPLQSTSSHLPKSTGTVKALTYCDLRYINHFDLKQVTESYPELGQVLQ  647
+
+
+> tr|B3RV15|B3RV15_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_55492 PE=4 SV=1
+Length=443
+
+ Score = 77.0 bits (188),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 42/122 (34%), Positives = 69/122 (57%), Gaps = 12/122 (10%)
+
+Query  539  VASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVL------  592
+            + ++PLF N D  F+  +   +K  + Q G+ II +G IG++M+F+  G+V +L      
+Sbjct  312  LKNIPLFENCDQKFLYQLALHIKPRLVQAGEIIISKGEIGREMFFLVRGMVKILDSETVA  371
+
+Query  593  ------TKGNKEMKLSDGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVLEEYP  646
+                     N +  L  G++FGE+ LL +  RT+SV+A T C L S+S + F+ VL E+P
+Sbjct  372  LDVQASDNSNVDKILEAGAFFGEVALLYKVPRTSSVQALTSCDLLSVSKELFDTVLIEHP  431
+
+Query  647  MM  648
+             +
+Sbjct  432  EL  433
+
+
+ Score = 71.6 bits (174),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 39/125 (31%), Positives = 69/125 (55%), Gaps = 2/125 (2%)
+
+Query  538  LVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNK  597
+             V +MP    A   F   ++  ++    +  + II++G +GK ++F+  G V V++   +
+Sbjct  161  FVDAMPFLIEATREFKEKVVAAVEPRFVKKKEMIIKKGDLGKAIFFVARGSVEVISDDGE  220
+
+Query  598  EM--KLSDGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAFETV  655
+             +  +L++GS+FGEI ++    RT SVRA T C + +++ D F  +LEE P ++    T 
+Sbjct  221  VIYAELAEGSFFGEIAIMFDMPRTCSVRASTNCIILAITRDKFRSLLEEDPKLKDVVMTE  280
+
+Query  656  AIDRL  660
+            A  RL
+Sbjct  281  ARSRL  285
+
+
+> tr|B3RQK9|B3RQK9_TRIAD Putative uncharacterized protein (Fragment) 
+OS=Trichoplax adhaerens GN=TRIADDRAFT_22287 PE=4 SV=1
+Length=175
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 43/161 (27%), Positives = 80/161 (50%), Gaps = 25/161 (16%)
+
+Query  190  EREQERVKSAGAWIIHPYSDFRFYWDFTMLLFMVGNLIIIPVGITFF------------K  237
+            E + E ++     IIH YS  + +WD+ +L+ ++   I+ P   +F              
+Sbjct  11   EYKLEEIQIPRFTIIH-YSILKAFWDWLILIMVLYTAIVTPFTASFIIAQDVQRTILDRN  69
+
+Query  238  DET----------TAPWIVFNVVSDTFFLMDLVLNFRTGIVIEDNTEIILDPEKIKKKYL  287
+             ET          + P  + + + D  F++D+++NFRT  V   N EII D +KI   YL
+Sbjct  70   PETRVNHGVLNPYSDPLFIIDWIVDITFIVDILINFRTTYV-NSNDEIITDWKKIGLHYL  128
+
+Query  288  RTWFVVDFVSSIPVDYIFLIVEKGIDSEVYKTARALRIVRF  328
+            ++WF++D +++IP + +F+  E+    ++Y     + I+ F
+Sbjct  129  KSWFIIDLIAAIPFE-LFIGGEQNEQVKIYNNITIISILLF  168
+
+
+> tr|B3RMG4|B3RMG4_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_37279 PE=4 SV=1
+Length=382
+
+ Score = 57.0 bits (136),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 33/116 (28%), Positives = 56/116 (48%), Gaps = 0/116 (0%)
+
+Query  537  KLVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGN  596
+            K +    LF++ D N  + +   +     +PGD IIR+G  G   Y +  G V V     
+Sbjct  131  KAIEKNILFSHLDDNERSDIFDAMFPCESKPGDIIIRQGDEGDNFYIMDSGEVDVYVGDK  190
+
+Query  597  KEMKLSDGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAF  652
+                L D + FGE+ L+    R A+++A T C+L+++  D++  +L    M +R  
+Sbjct  191  LVATLGDMASFGELALIYGTPRAATIKAKTECKLWAIDSDSYRHILMGSTMRKRKL  246
+
+
+ Score = 38.5 bits (88),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 26/84 (31%), Positives = 41/84 (49%), Gaps = 6/84 (7%)
+
+Query  565  FQPGDYIIREGTIGKKMYFIQHGVVSVLTK--GNKEM----KLSDGSYFGEICLLTRGRR  618
+            F+  + +I++G  G+  + I  G   VL +  G+ E     +L    YFGEI LL +  R
+Sbjct  277  FEENEIVIQQGDPGEDFFIILEGKAVVLQRKPGDTEYVEVGELGPSDYFGEIALLLKRPR  336
+
+Query  619  TASVRADTYCRLYSLSVDNFNEVL  642
+             A+V+A +  +   L    F  VL
+Sbjct  337  AATVKAASTLKCVKLDRARFERVL  360
+
+
+> tr|B3RUK5|B3RUK5_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_55323 PE=4 SV=1
+Length=360
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 33/110 (30%), Positives = 57/110 (52%), Gaps = 4/110 (4%)
+
+Query  537  KLVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLT-KG  595
+            +L+ S+ + +  +    T +   L+ + F+  D II++G      YF++ G   V+  KG
+Sbjct  228  ELIGSVEMLSELEAYERTNLADALESKKFKDNDVIIKQGDDADAFYFVEKGQCRVIIQKG  287
+
+Query  596  NKEM---KLSDGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVL  642
+            ++E    +L  G YFGE+ L+T  +R ASV A     + +L V  F  +L
+Sbjct  288  SEEKEVARLGKGDYFGELALVTHSKRAASVYAVGDTSIAALEVGAFERLL  337
+
+
+> tr|B3S3K3|B3S3K3_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_28339 PE=4 SV=1
+Length=329
+
+ Score = 45.4 bits (106),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 39/143 (27%), Positives = 66/143 (46%), Gaps = 16/143 (11%)
+
+Query  516  DSILGELNGPLREEIV-------NFNCRKLVASMPLFANADPNFVTAMLTKLKFEVFQPG  568
+            D +L  L+G +  +IV           RKL+ S+ +        +  +   L  + ++ G
+Sbjct  160  DGVLWTLSGEMFRQIVLKAARKKREEFRKLLQSVTILKELSTYELENVADALILKKYKNG  219
+
+Query  569  DYIIREGTIGKKMYFIQHGVVSV--LTKGNKE----MKLSD---GSYFGEICLLTRGRRT  619
+            + I +EG    ++YF+  G V +  L K N++    +K+++   GSYFGE+  L +  R 
+Sbjct  220  ECIFKEGDQAYELYFVLAGAVEIRMLDKSNRQSGQQVKITECPVGSYFGELAWLKKDPRA  279
+
+Query  620  ASVRADTYCRLYSLSVDNFNEVL  642
+            AS  A     L  L V  F  +L
+Sbjct  280  ASAYALGNVTLAELDVYAFERLL  302
+
+
+ Score = 42.7 bits (99),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 25/80 (31%), Positives = 43/80 (54%), Gaps = 4/80 (5%)
+
+Query  567  PGDYIIREGTIGKKMYFIQHGVVSVLTK--GNKEM--KLSDGSYFGEICLLTRGRRTASV  622
+             G+ +IR+G  G   Y +  G+   + K  G  E+  K  +   FGE+ L+    R+A+V
+Sbjct  96   KGNDVIRQGDDGDNFYIVDAGIFEAIVKRDGKSEVVFKYDNSGSFGELALMYNTPRSATV  155
+
+Query  623  RADTYCRLYSLSVDNFNEVL  642
+            RA T   L++LS + F +++
+Sbjct  156  RASTDGVLWTLSGEMFRQIV  175
+
+
+> tr|B3RUK4|B3RUK4_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_23617 PE=4 SV=1
+Length=354
+
+ Score = 45.4 bits (106),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 54/110 (49%), Gaps = 4/110 (4%)
+
+Query  537  KLVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGN  596
+            +++ S+ +  + + +   ++   L+    + G  II++G      YF++ G   V+ + N
+Sbjct  227  EILGSVSILKSLEKHERMSLADALETRRIKDGQAIIKQGDDADAFYFVEKGECQVVIEKN  286
+
+Query  597  ----KEMKLSDGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVL  642
+                +  +L  G YFGE+ L+T  +R ASV A     + +L V  F  +L
+Sbjct  287  GVETEVTRLKVGDYFGELALITHSKRAASVYALGDVSIAALDVAAFERLL  336
+
+
+> tr|B3S658|B3S658_TRIAD cGMP-dependent protein kinase OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_30101 PE=3 SV=1
+Length=680
+
+ Score = 45.1 bits (105),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 29/92 (32%), Positives = 47/92 (51%), Gaps = 6/92 (7%)
+
+Query  538  LVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNK  597
+             +  +P+F +   + ++ +   L+   F+  +Y+IREG  G   Y I +G V V TK  K
+Sbjct  228  FLKGVPIFESLPEDIISKLANVLEEAKFRKDEYVIREGAHGDTFYIISYGRVKV-TKTTK  286
+
+Query  598  EMK-----LSDGSYFGEICLLTRGRRTASVRA  624
+            E +     L +   FGE  LL   +R+A+V A
+Sbjct  287  EGEQFIRILQEKDSFGEKALLEEEKRSANVIA  318
+
+
+ Score = 42.7 bits (99),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 33/60 (55%), Gaps = 0/60 (0%)
+
+Query  565  FQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKEMKLSDGSYFGEICLLTRGRRTASVRA  624
+            ++   YII+EG  G  +Y I+ G V V  +G     +   + FGE+ +L   +RTA+V+ 
+Sbjct  124  YKQDHYIIKEGESGNHLYVIEDGEVEVTKEGKILSYMKSRTVFGELAILYNCKRTATVKG  183
+
+
+> tr|B3RLT5|B3RLT5_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_52117 PE=4 SV=1
+Length=911
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 38/124 (31%), Positives = 59/124 (48%), Gaps = 16/124 (13%)
+
+Query  533  FNCRKLVASMPLFANADPNFVTAMLTK-LKFEVFQPGDYIIREGTIGKKMYFIQHGVVSV  591
+             N R L   +  F    PN V   L +  +F  ++ G  ++R+G  G   Y I HG +SV
+Sbjct  350  LNLRNLFRGLGCFDRF-PNHVQMELVRHFEFCRYEEGRVVLRQGHEGFCFYMIFHGSLSV  408
+
+Query  592  ---------LTKGNKEMKLSDGSYFGEICLLTR-GRRTASVRADTYCRLYSLSVDNFNEV  641
+                      T    E  L+ G  FGE+ L+++  RRTA+V+A     L  LS+D  + +
+Sbjct  409  SIEEPDSKGKTYSRMENILTSGVSFGELALISKTKRRTATVKARENVEL--LSID--DRI  464
+
+Query  642  LEEY  645
+             ++Y
+Sbjct  465  FQKY  468
+
+
+> tr|B3S646|B3S646_TRIAD Putative uncharacterized protein (Fragment) 
+OS=Trichoplax adhaerens GN=TRIADDRAFT_30166 PE=4 SV=1
+Length=587
+
+ Score = 42.0 bits (97),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 27/92 (29%), Positives = 45/92 (49%), Gaps = 6/92 (7%)
+
+Query  537  KLVASMPLFANADPNFVTAMLTKLKFEVFQPGDYIIREGTIGKKMYFIQHGVVSV---LT  593
+            + + S+PL  +     +  +   L    ++  +YI+RE   G   Y I+ G V V   + 
+Sbjct  124  QFLESVPLLKHLPAGKLAKIAGVLDVNYYKQEEYIVRENETGDTFYIIKKGEVIVTRRMI  183
+
+Query  594  KGNKEM---KLSDGSYFGEICLLTRGRRTASV  622
+            + N ++    L  G YFGE  LL+  RRTA++
+Sbjct  184  EKNSDVFVRTLVRGDYFGERALLSEERRTANI  215
+
+
+ Score = 37.7 bits (86),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 41/78 (53%), Gaps = 0/78 (0%)
+
+Query  565  FQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKEMKLSDGSYFGEICLLTRGRRTASVRA  624
+            F   D IIREG  G ++Y    G   +   G    K+  G  FGE+ +L   RRTA++ A
+Sbjct  34   FNESDIIIREGEYGNRLYVTAEGNFEITKDGTLLTKVGAGVAFGELAILYNCRRTATITA  93
+
+Query  625  DTYCRLYSLSVDNFNEVL  642
+             T C+++++  + F  ++
+Sbjct  94   TTKCKVWAIDREVFQMIM  111
+
+
+> tr|B3S6X8|B3S6X8_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_59967 PE=4 SV=1
+Length=638
+
+ Score = 33.5 bits (75),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 21/95 (22%), Positives = 45/95 (47%), Gaps = 14/95 (15%)
+
+Query  560  LKFEVFQPGDYIIREGTIGKKMYFIQHGVVSV------------LTKGNKEMKLSDGSYF  607
+            L++E +     I+++G +    YFI  G + V             T+  +E  + +G  F
+Sbjct  153  LRYESYGKRRVIVQQGHLPIAYYFILSGTLLVNITDSDIRTNQPFTRTVQE--IGEGKSF  210
+
+Query  608  GEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVL  642
+            GE+ L+    RTA++ +  +  L ++  ++F + +
+Sbjct  211  GEVALINGSSRTATIVSKAFVELLAIDKEDFQKTI  245
+
+
+> tr|B3RL01|B3RL01_TRIAD Predicted protein OS=Trichoplax adhaerens 
+GN=TRIADDRAFT_51828 PE=4 SV=1
+Length=622
+
+ Score = 30.4 bits (67),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 20/40 (50%), Gaps = 0/40 (0%)
+
+Query  758  VRRPPPGPAPAAASPGPPPPASPPGAPASPRAPRTSPYGG  797
+            V+  P  P   + +  P PPASP     SPR+ +TSP   
+Sbjct  53   VKSMPSSPVSKSRNFHPGPPASPRSIKTSPRSNKTSPRSN  92
+
+
+> tr|B3SDA8|B3SDA8_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_62266 PE=3 SV=1
+Length=3089
+
+ Score = 30.0 bits (66),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 19/63 (30%), Positives = 24/63 (38%), Gaps = 3/63 (5%)
+
+Query  16    ATPAPGPPPPPPPAPPQQQPPPPPPPAPPPGPGPAPPQHPPRAEALPPEAADEGGPRGRL  75
+             A+  PG P    P PP ++  P PPP   P     P +          E+A     R   
+Sbjct  2965  ASMMPGGPRHLVPKPPMRKGHPQPPPRSNP---VKPMRQQASLSTFDAESAVSSQGRPSQ  3021
+
+Query  76    RSR  78
+             RSR
+Sbjct  3022  RSR  3024
+
+
+> tr|B3RQW7|B3RQW7_TRIAD Predicted protein OS=Trichoplax adhaerens 
+GN=TRIADDRAFT_54024 PE=4 SV=1
+Length=1742
+
+ Score = 30.0 bits (66),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 29/49 (59%), Gaps = 3/49 (6%)
+
+Query  659   RLDRIGKKNSILLHKVQHDLNSGVFNNQENAIIQEIVKYDREMVQQAEL  707
+             +LD++GK+   LLHK++ D     F  Q+ +II ++   D ++ Q+  L
+Sbjct  1475  QLDQLGKQQECLLHKLEKD---ETFTMQQKSIINQLDVLDSDLQQENRL  1520
+
+
+> tr|B3RP00|B3RP00_TRIAD Putative uncharacterized protein (Fragment) 
+OS=Trichoplax adhaerens GN=TRIADDRAFT_10294 PE=4 SV=1
+Length=1193
+
+ Score = 29.6 bits (65),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 20/85 (24%), Positives = 40/85 (47%), Gaps = 6/85 (7%)
+
+Query  568  GDYIIREGTIGKKMYFIQHGVVSVLTKG-NKEMKLSD-----GSYFGEICLLTRGRRTAS  621
+            G  + +EG I   +Y++  G + +  +  NK  + +      G   G + +LT      S
+Sbjct  430  GTILTKEGDINCSLYYVVSGSLQISQRDVNKSYECTLFHAVPGELVGSLEMLTGEPSLFS  489
+
+Query  622  VRADTYCRLYSLSVDNFNEVLEEYP  646
+            +RA   C++  ++  NF  +++E P
+Sbjct  490  IRAPHECKVIIITKSNFFSLMKETP  514
+
+
+> tr|B3RKT5|B3RKT5_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_51758 PE=4 SV=1
+Length=693
+
+ Score = 29.3 bits (64),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 20/78 (26%), Positives = 32/78 (41%), Gaps = 1/78 (1%)
+
+Query  566  QPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKEMKLSDGSYFGEICLLTRGRRTASVRAD  625
+            + G  +IR+G +    Y I  G V V   G K   +S  S    I  L + +    +   
+Sbjct  117  KSGTTVIRQGDVADSWYIILKGSVEVFITG-KATTVSFVSRIIYIFFLLKVKAATVITKQ  175
+
+Query  626  TYCRLYSLSVDNFNEVLE  643
+              C    +  D+FN +L+
+Sbjct  176  DNCCFAKVDKDDFNLILQ  193
+
+
+> tr|B3S6Z7|B3S6Z7_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_59984 PE=4 SV=1
+Length=745
+
+ Score = 29.3 bits (64),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 22/42 (52%), Gaps = 0/42 (0%)
+
+Query  601  LSDGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVL  642
+            LS G  FGE  LL R +R  ++      +L ++  D+FN + 
+Sbjct  365  LSRGQTFGETALLYRRKREYTITCVEKMQLIAIDGDDFNAIF  406
+
+
+> tr|B3S9F8|B3S9F8_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_60891 PE=4 SV=1
+Length=348
+
+ Score = 28.9 bits (63),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 21/36 (58%), Gaps = 2/36 (6%)
+
+Query  575  GTIGKKMYFIQHGVVSVLTKGNKEMKLSDGSYFGEI  610
+            GT    + F+ +G V  +  GNKEM+   G+Y+G I
+Sbjct  42   GTFLSMISFLANGYVLYIIYGNKEMR--SGTYYGLI  75
+
+
+> tr|B3RQ85|B3RQ85_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_53813 PE=4 SV=1
+Length=416
+
+ Score = 28.5 bits (62),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 1/75 (1%)
+
+Query  796  GGLPAAPLAGPALPARRLSRASRPLSASQPSLPHGAPGPAASTRPAS-SSTPRLGPTPAA  854
+             G+P   LAG   P++ L RA+  +   Q  L        +  +PA  + T    P PAA
+Sbjct  106  NGMPIEILAGNIQPSQFLVRANEAIQVHQQHLASIEAAGGSVNQPAGYNQTKYEEPPPAA  165
+
+Query  855  RAAAPSPDRRDSASP  869
+            +A      R+ ++ P
+Sbjct  166  QAGFFGLGRKPASKP  180
+
+
+> tr|B3RSA7|B3RSA7_TRIAD Putative uncharacterized protein OS=Trichoplax 
+adhaerens GN=TRIADDRAFT_54530 PE=4 SV=1
+Length=264
+
+ Score = 28.1 bits (61),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 19/31 (61%), Gaps = 4/31 (13%)
+
+Query  646  PMMRRAFETVAIDRLDRIGKKNSILLHKVQH  676
+            P +R AF+ V+ D +DR G+    +LH  QH
+Sbjct  111  PCIRNAFQIVSADNVDRTGE----ILHFEQH  137
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3185737437
+
+
+  Database: uniprot-proteome%3AUP000009022.fasta
+    Posted date:  Jun 8, 2016  7:35 PM
+  Number of letters in database: 5,222,991
+  Number of sequences in database:  11,520
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

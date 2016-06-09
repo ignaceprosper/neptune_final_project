@@ -10,15 +10,19 @@ cd refProteomes
 
 for i in *.phr # to browse only among proteomes converted into a database
 do
-	echo ref=`basename -s .phr $i`
-	ref=`basename -s .phr $i` # retrieves the species name that designates the database
+
+echo ref=`basename -s .phr $i`
+ref=`basename -s .phr $i` # retrieves the species name that designates the database
 
 	for j in homoHCN.short.fa nematoHCN.short.fa; # to blast the two query sequences successively against each proteome
 	do
 		echo query=`basename -s HCN.short.fa $j`
 		query=`basename -s HCN.short.fa $j`
-		echo  
-		blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30
+		echo blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 1
+		blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 1
+
+		#echo blastp -db refProteomes/$2 -query $1 -out out/`basename -s HCN.short.fa $1`VS${2}_outfmt$i.out -evalue 1e-$3 -outfmt $i -max_target_seqs 1
+
 	done
 
 done

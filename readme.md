@@ -39,42 +39,33 @@ Goals :
 1) to identify HCN gene family members :
 
 As a starting point, two reference HCN protein sequences were retrieved : HCN2 from *Homo sapiens* (Bilateria), and HCN2 from *Nematostella vectensis* (Cnidaria), as well as all available protein sequences (called hereafter "target proteomes") for the following six target species :
-
 	- *Mus musculus* (house mouse, Chordate),
-
 	- *Ciona intestinalis* (transparent sea squirt, Chordate),
-
-	- *Saccoglossus kowalevski* (acorn worm, Hemichordate),
-
+	- *Saccoglossus kowalevskii* (acorn worm, Hemichordate),
 	- *Drosophila melanogaster* (fruit fly, Arthropod),
-
 	- *Crassostrea gigas* (Pacific oyster, Mollusc),
-
 	- *Trichoplax adhaerens* (Placozoa).
 
 All sequences were manually downloaded in FASTA format from the UniProt database (http://www.uniprot.org/).
 
 The headers of the two reference HCN sequences were edited using regular expressions, via the Python script "shorten_headers.py" stored in ./scripts. They were stored as {genus}HCN.short.fa in the working directory.
 
-To look for homologous HCN sequences in these six target species, a protein-BLAST search was performed on my computer, using the programm 'blastp'. Databases were created locally using the command 'makeblastdb' from 'blastp', and stored in a folder called "refProteomes". Raw protein sequences files are stored as {genus}*.all.fasta text files, and the newly created database files as {genus}*.phr, {genus}*.pin and {genus}*.psq respectively. This step was executed by the script "makeDatabaseProt.sh" stored in ./scripts, and is necessary for the programm 'blastp' to run subsequent BLAST searches.
+To look for homologous HCN sequences in these six target species, a protein-BLAST search was performed on my computer, using the programm 'blastp'. Databases were created locally using the command 'makeblastdb' from 'blastp', and stored in a folder called "refProteomes". Raw protein sequences files are stored as {genus}.all.fasta text files, and the newly created database files as {genus}.phr, {genus}.pin and {genus}.psq respectively. This step was executed by the script "makeDatabaseProt.sh" stored in ./scripts, and is necessary for the programm 'blastp' to run subsequent BLAST searches.
 
 A BLAST search was then performed, using successively as query the two reference sequences against the six target proteomes. Different parameters were tested, notably expected value and output format. The final output comprised the 5 best hits for an e-value of 1e-30, displayed in the format option #7 (tabular with comment lines). Each output was stored in ./out as a {query}VS{target}.out file, and the outputs were then compiled separately for each query sequence in a text file called results_{query}.txt stored in ./out. Searches, generation and compilation of outputs were performed by the script "blast.sh".
 
+To leave the possibility to re-run the BLAST search for individual target proteomes, in case the search gives few or no results, an additional "blast.individual.sh" was created, which allows to manually adapt e-value and display individual results.
 
-
-
-
-
-
-
-
-The tools I used were... See analysis files at (links to analysis files).
 
 ## Results
 
-![Figure 1](./Figure1.png?raw=true)
+The BLAST search has identified homologs of the HCN protein for almost all target species.
 
-In Figure 1...
+The query "Homo" has returned the maximum of 5 hits for all targets except Saccoglossus (0) and Trichoplax (2).
+The query "Nematostella" has returned 5 hits for Drosophila and Mus, 4 hits for Ciona, 3 hits for Crassostrea, 1 hit for Trichoplax  and no hit for Saccoglossus.
+
+The best hit for each target of the query "Homo" is present among the three best hits of the corresponding target of the query "Nematostella", with an e-value less than 1e-150 (except in the case of Trichoplax : e-value = 7e-36). These best hits can thus be choosen as the reference protein sequences to make the alignment from.
+
 
 ## Discussion
 

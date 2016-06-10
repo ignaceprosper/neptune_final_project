@@ -38,10 +38,27 @@ Goals :
 
 1) to identify HCN gene family members :
 
-As a starting point, two reference HCN protein sequences were retrieved : HCN2 from *Homo sapiens* (Bilateria), and HCN2 from *Nematostella vectensis* (Cnidaria), as well as all available protein sequences for the following six target species : *Mus musculus* (house mouse, Chordate), *Ciona intestinalis* (transparent sea squirt, Chordate), *Saccoglossus kowalevski* (acorn worm, Hemichordate), *Drosophila melanogaster* (fruit fly, Arthropod), *Crassostrea gigas* (Pacific oyster, Mollusc) and *Trichoplax adhaerens* (Placozoa).
+As a starting point, two reference HCN protein sequences were retrieved : HCN2 from *Homo sapiens* (Bilateria), and HCN2 from *Nematostella vectensis* (Cnidaria), as well as all available protein sequences (called hereafter "target proteomes") for the following six target species :
+
+	- *Mus musculus* (house mouse, Chordate),
+
+	- *Ciona intestinalis* (transparent sea squirt, Chordate),
+
+	- *Saccoglossus kowalevski* (acorn worm, Hemichordate),
+
+	- *Drosophila melanogaster* (fruit fly, Arthropod),
+
+	- *Crassostrea gigas* (Pacific oyster, Mollusc),
+
+	- *Trichoplax adhaerens* (Placozoa).
+
 All sequences were manually downloaded in FASTA format from the UniProt database (http://www.uniprot.org/).
 
-To look for homologous HCN sequences in these six target species, a protein-BLAST search was performed on my computer, using the programm 'blastp'. Databases were created locally using the command 'makeblastdb', and stored in a folder called "refProteomes". This step is necessary for the programm 'blastp' to run.
+The headers of the two reference HCN sequences were edited using regular expressions, via the Python script "shorten_headers.py" stored in ./scripts. They were stored as {genus}HCN.short.fa in the working directory.
+
+To look for homologous HCN sequences in these six target species, a protein-BLAST search was performed on my computer, using the programm 'blastp'. Databases were created locally using the command 'makeblastdb' from 'blastp', and stored in a folder called "refProteomes". Raw protein sequences files are stored as {genus}*.all.fasta text files, and the newly created database files as {genus}*.phr, {genus}*.pin and {genus}*.psq respectively. This step was executed by the script "makeDatabaseProt.sh" stored in ./scripts, and is necessary for the programm 'blastp' to run subsequent BLAST searches.
+
+A BLAST search was then performed, using successively as query the two reference sequences against the six target proteomes. Different parameters were tested, notably expected value and output format. The final output comprised the 5 best hits for an e-value of 1e-30, displayed in the format option #7 (tabular with comment lines). Each output was stored in ./out as a {query}VS{target}.out file, and the outputs were then compiled separately for each query sequence in a text file called results_{query}.txt stored in ./out. Searches, generation and compilation of outputs were performed by the script "blast.sh".
 
 
 

@@ -24,9 +24,15 @@ OK, here we go.
 
 ## Introduction and Goals
 
-Goal : I want to build a phylogenetic tree for the HCN channel gene family, with a taxon sampling representing at least the major clades of Metazoa.
-Before this, I need to identify more orthologs of HCN, based on the currently described HCN channels.
-This project should be an occasion to learn how to search for and browse such data, how to identify homolog genes, and to build and interpret trees.
+Introduction : 	Most neurons work in a passive way, being activated externally, either by an environmental stimulus or by an action potential from other neurons. If an animal's neuronal activity only consists of such events, then it is hard to explain how a behavior could be anything else than a complex, yet mere passive reaction to the environment. Such a physiological status leaves little room for spontaneous behaviors, not to mention the question of free decision and free will in humans. Some neurons however have the ability to self-activate, thanks to the presence of hyperpolarization-activated ion channels (HCN). These channels initiate spontaneous electrical events, for example in vertebrate heart pacemaker cells. Although they were likely present in the common ancestor of Cnidaria and Bilateria, they seem to have diversified in the vertebrate lineage, amd are expressed in various mammalian brain structures. One can thus hypothesize that these channels play a role in the complex cognitive and decisional processes observed in mammals. As a first step towards testing this hypothesis, I wanted to establish a detailed phylogeny of the HCN gene family across Metazoa.
+
+
+Goal :
+1) Identifying all members of the HCN gene family in species representing the main metazoan clades
+2) Creating a multiple sequence alignements of the corresponding proteins
+3) Calculating a phylogenetic tree of the HCN protein family, based on both parsimony and maximum-likelihood models.
+4) Comparing the diversification of HCN proteins between clades.
+
 
 Methods : Text file reformatting + tree building program
 

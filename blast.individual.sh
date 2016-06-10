@@ -27,10 +27,6 @@ cd ~/repos/neptune_final_project
 	#blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30
 #done
 
-cd ..
-
-
-
 
 #read -r -p 'query >>> ' quer
 #echo $quer

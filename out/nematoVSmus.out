@@ -2,6 +2,10 @@
 # Query: Nematostella vectensis
 # Database: mus
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 5 hits found
 Nematostella	tr|C9K0Z8|C9K0Z8_MOUSE	50.79	506	243	3	172	672	134	638	0.0	544
+Nematostella	sp|O88703|HCN2_MOUSE	50.79	506	243	3	172	672	134	638	0.0	543
+Nematostella	tr|B2RY58|B2RY58_MOUSE	51.59	504	238	3	174	672	214	716	4e-179	548
+Nematostella	tr|B2RRB5|B2RRB5_MOUSE	51.16	518	240	6	166	672	33	548	2e-178	534
+Nematostella	sp|O88705|HCN3_MOUSE	51.16	518	240	6	166	672	33	548	2e-178	534
 # BLAST processed 1 queries

@@ -2,6 +2,10 @@
 # Query: Homo sapiens
 # Database: mus
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 5 hits found
 Homo	tr|C9K0Z8|C9K0Z8_MOUSE	90.03	893	55	10	1	889	1	863	0.0	1419
+Homo	sp|O88703|HCN2_MOUSE	90.03	893	55	10	1	889	1	863	0.0	1416
+Homo	tr|B2RY58|B2RY58_MOUSE	82.08	636	104	2	144	776	195	823	0.0	1052
+Homo	sp|O70507|HCN4_MOUSE	79.97	629	101	3	151	776	202	808	0.0	1006
+Homo	sp|O88704|HCN1_MOUSE	74.14	669	147	5	137	797	60	710	0.0	989
 # BLAST processed 1 queries

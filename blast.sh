@@ -1,21 +1,24 @@
 #! /bin/bash
 
-cd ~/repos/neptune_final_project
+cd ~/repos/neptune_final_project/refProteomes
 
 #echo blastp -db refProteomes/$2 -query $1 -out out/`basename -s HCN.short.fa $1`VS$2.out -evalue 1e-30
 #echo $1
 #echo $2
 
-cd refProteomes
+#cd refProteomes
 
 #for i in *.phr # to browse only among proteomes converted into a database
 #do
 for j in homoHCN.short.fa nematoHCN.short.fa; # to blast the two query sequences successively against each proteome
 do
 
+	echo query=`basename -s HCN.short.fa $j`
+	query=`basename -s HCN.short.fa $j`
 
+	echo 'Compiled results '${query} > ../out/results_${query}.txt
 
-	#for j in homoHCN.short.fa nematoHCN.short.fa; # to blast the two query sequences successively against each proteome
+	#for j in homoHCN.short.fa nematoHCN.short.fa; 
 	#do
 
 	for i in *.phr # to browse only among proteomes converted into a database
@@ -26,10 +29,17 @@ do
 
 		echo query=`basename -s HCN.short.fa $j`
 		query=`basename -s HCN.short.fa $j`
-		echo blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 1
-		blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 1
-		#>> results.1seq.${query}.txt
+		echo blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 5
+		blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 5
+
+		#cd ../out
+
+		#../out/${query}VS${ref}.out >> ../out/results_${query}_1seq.txt
+		cat ../out/${query}VS${ref}.out >> ../out/results_${query}.txt
+
+		#cat $j >> results_${i}_1seq.txt
 		
+		#cd ../refProteomes
 
 		#blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 1 `| cat`
 		#echo blastp -db $ref -query ../$j -out ../out/${query}VS${ref}.out -evalue 1e-30 -outfmt 7 -max_target_seqs 1 `>> result.1seq.basename -s HCN.short.fa $j.out`

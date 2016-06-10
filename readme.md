@@ -24,23 +24,32 @@ OK, here we go.
 
 ## Introduction and Goals
 
-Introduction : 	Most neurons work in a passive way, being activated externally, either by an environmental stimulus or by an action potential from other neurons. If an animal's neuronal activity only consists of such events, then it is hard to explain how a behavior could be anything else than a complex, yet mere passive reaction to the environment. Such a physiological status leaves little room for spontaneous behaviors, not to mention the question of free decision and free will in humans. Some neurons however have the ability to self-activate, thanks to the presence of hyperpolarization-activated ion channels (HCN). These channels initiate spontaneous electrical events, for example in vertebrate heart pacemaker cells. Although they were likely present in the common ancestor of Cnidaria and Bilateria, they seem to have diversified in the vertebrate lineage, amd are expressed in various mammalian brain structures. One can thus hypothesize that these channels play a role in the complex cognitive and decisional processes observed in mammals. As a first step towards testing this hypothesis, I wanted to establish a detailed phylogeny of the HCN gene family across Metazoa.
+Introduction : 	Most neurons work in a passive way, being activated externally, either by an environmental stimulus or by an action potential from other neurons. If an animal's neuronal activity only consists of such events, then it is hard to explain how a behavior could be anything else than a complex, yet mere passive reaction to the environment. Such a physiological status leaves little room for spontaneous behaviors, not to mention the question of free decision and free will in humans. Some neurons however have the ability to self-activate, thanks to the presence of hyperpolarization-activated ion channels (HCN). These channels initiate spontaneous electrical events, for example in vertebrate heart pacemaker cells. Although they were likely present in the common ancestor of Cnidaria and Bilateria, they seem to have diversified in the vertebrate lineage, and are expressed in various mammalian brain structures. One can thus hypothesize that these channels play a role in the complex cognitive and decisional processes observed in mammals. As a first step towards testing this hypothesis, I wanted to establish a detailed phylogeny of the HCN gene family across Metazoa.
 
 
-Goal :
+Goals :
 1) Identifying all members of the HCN gene family in species representing the main metazoan clades
 2) Creating a multiple sequence alignements of the corresponding proteins
 3) Calculating a phylogenetic tree of the HCN protein family, based on both parsimony and maximum-likelihood models.
 4) Comparing the diversification of HCN proteins between clades.
 
 
-Methods : Text file reformatting + tree building program
-
-Data : annotated or not-yet-annotated HCN gene sequences from online available genomes
-
 ## Methods
 
-The starting point is a set of 6 protein sequences, identified as HCN homologs in [1].
+1) to identify HCN gene family members :
+
+As a starting point, two reference HCN protein sequences were retrieved : HCN2 from *Homo sapiens* (Bilateria), and HCN2 from *Nematostella vectensis* (Cnidaria), as well as all available protein sequences for the following six target species : *Mus musculus* (house mouse, Chordate), *Ciona intestinalis* (transparent sea squirt, Chordate), *Saccoglossus kowalevski* (acorn worm, Hemichordate), *Drosophila melanogaster* (fruit fly, Arthropod), *Crassostrea gigas* (Pacific oyster, Mollusc) and *Trichoplax adhaerens* (Placozoa).
+All sequences were manually downloaded in FASTA format from the UniProt database (http://www.uniprot.org/).
+
+To look for homologous HCN sequences in these six target species, a protein-BLAST search was performed on my computer, using the programm 'blastp'. Databases were created locally using the command 'makeblastdb', and stored in a folder called "refProteomes". This step is necessary for the programm 'blastp' to run.
+
+
+
+
+
+
+
+
 
 The tools I used were... See analysis files at (links to analysis files).
 

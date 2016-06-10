@@ -28,10 +28,16 @@ Introduction : 	Most neurons work in a passive way, being activated externally, 
 
 
 Goals :
+
 1) Identifying all members of the HCN gene family in species representing the main metazoan clades
+
 2) Creating a multiple sequence alignements of the corresponding proteins
+
 3) Calculating a phylogenetic tree of the HCN protein family, based on both parsimony and maximum-likelihood models.
+
 4) Comparing the diversification of HCN proteins between clades.
+
+As a preliminary step towrds conducting this project, I first followed the tutorial 'Hydroidolina Phylogeny Assignment' provided by Casey, to get familiar with the overall analysis. I then tried to perform all steps (finding homologs, aligning sequences, creating tree) on a limited dataset. During this project, I actually only performed step 1) on this limited dataset.
 
 
 ## Methods
@@ -39,12 +45,18 @@ Goals :
 1) to identify HCN gene family members :
 
 As a starting point, two reference HCN protein sequences were retrieved : HCN2 from *Homo sapiens* (Bilateria), and HCN2 from *Nematostella vectensis* (Cnidaria), as well as all available protein sequences (called hereafter "target proteomes") for the following six target species :
-	- *Mus musculus* (house mouse, Chordate),
-	- *Ciona intestinalis* (transparent sea squirt, Chordate),
-	- *Saccoglossus kowalevskii* (acorn worm, Hemichordate),
-	- *Drosophila melanogaster* (fruit fly, Arthropod),
-	- *Crassostrea gigas* (Pacific oyster, Mollusc),
-	- *Trichoplax adhaerens* (Placozoa).
+	
+	*Mus musculus* (house mouse, Chordate),
+	
+	*Ciona intestinalis* (transparent sea squirt, Chordate),
+	
+	*Saccoglossus kowalevskii* (acorn worm, Hemichordate),
+	
+	*Drosophila melanogaster* (fruit fly, Arthropod),
+	
+	*Crassostrea gigas* (Pacific oyster, Mollusc),
+	
+	*Trichoplax adhaerens* (Placozoa).
 
 All sequences were manually downloaded in FASTA format from the UniProt database (http://www.uniprot.org/).
 
